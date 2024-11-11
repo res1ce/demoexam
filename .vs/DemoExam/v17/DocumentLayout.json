@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|c:\\users\\warfa\\desktop\\demoexamen-master\\demoexam\\windows\\editwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\windows\\editwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|c:\\users\\warfa\\desktop\\demoexamen-master\\demoexam\\windows\\saleshistorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\windows\\saleshistorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|c:\\users\\warfa\\desktop\\demoexamen-master\\demoexam\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|c:\\users\\warfa\\desktop\\demoexamen-master\\demoexam\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|c:\\users\\warfa\\desktop\\demoexamen-master\\demoexam\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0637BAB2-7861-45A9-BE5B-C4405FFA92CC}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\App.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\App.xaml",
+              "ToolTip": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\App.xaml",
+              "RelativeToolTip": "DemoExam\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T10:03:18.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DemoExam\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\AssemblyInfo.cs",
+              "RelativeToolTip": "DemoExam\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:58:46.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesHistoryWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\Windows\\SalesHistoryWindow.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\Windows\\SalesHistoryWindow.xaml",
+              "ToolTip": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\Windows\\SalesHistoryWindow.xaml",
+              "RelativeToolTip": "DemoExam\\Windows\\SalesHistoryWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T09:56:22.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\Windows\\EditWindow.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\Windows\\EditWindow.xaml",
+              "ToolTip": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\Windows\\EditWindow.xaml",
+              "RelativeToolTip": "DemoExam\\Windows\\EditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T09:56:11.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DemoExam\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\warfa\\Desktop\\DemoExamen-master\\DemoExam\\MainWindow.xaml",
+              "RelativeToolTip": "DemoExam\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T09:53:26.073Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

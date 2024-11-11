@@ -1,0 +1,39 @@
+﻿<Window x:Class="DemoExam.Windows.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавление / изменение" Height="450" Width="500" Icon="/Resources/icon.ico">
+    <Grid Background="{StaticResource PrimaryBackgroundBrush}" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Тип" Grid.Row="0"/>
+        <TextBox Text="{Binding Partner.Type}" Grid.Row="0" Margin="0,20,0,0"/>
+
+        <TextBlock Text="Название компании" Grid.Row="1"/>
+        <TextBox Text="{Binding Partner.CompanyName}" Grid.Row="1" Margin="0,20,0,0"/>
+
+        <TextBlock Text="ИНН" Grid.Row="2"/>
+        <TextBox Text="{Binding Partner.Inn}" Grid.Row="2" Margin="0,20,0,0"/>
+
+        <TextBlock Text="Директор" Grid.Row="3"/>
+        <TextBox Text="{Binding Partner.DirectorName}" Grid.Row="3" Margin="0,20,0,0"/>
+
+        <TextBlock Text="Телефон" Grid.Row="4"/>
+        <TextBox Text="{Binding Partner.Phone}" Grid.Row="4" Margin="0,20,0,0"/>
+
+        <TextBlock Text="Рейтинг" Grid.Row="5"/>
+        <TextBox Text="{Binding Partner.Rating}" Grid.Row="5" Margin="0,20,0,0"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="6" Margin="0,20,0,0">
+            <Button Content="Сохранить" Click="SaveButton_Click"/>
+            <Button Content="Отмена" Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

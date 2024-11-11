@@ -1,0 +1,41 @@
+﻿<Window x:Class="DemoExam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Партнеры" Height="450" Width="825" Icon="/Resources/icon.ico">
+    <Grid Background="{StaticResource SecondaryBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Resources/icon.png" HorizontalAlignment="Center"/>
+
+        <ListBox Grid.Row="1" ItemsSource="{Binding Partners}" x:Name="ListBoxPartners" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray" BorderThickness="0,0,0,1" Padding="10">
+                        <StackPanel Orientation="Vertical" Width="750">
+                            <DockPanel LastChildFill="True">
+                                <TextBlock Text="{Binding Type}" FontSize="23" Margin="0,0,20,0"/>
+                                <TextBlock Text="{Binding CompanyName}" FontSize="23"/>
+                                <TextBlock Text="5%" FontSize="23" HorizontalAlignment="Right"/>
+                            </DockPanel>
+                            <TextBlock Text="{Binding DirectorName}" FontSize="16"/>
+                            <TextBlock Text="{Binding Phone}" FontSize="16"/>
+                            <TextBlock Text="Рейтинг: " FontSize="16">
+                                <Run Text="{Binding Rating}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Left">
+            <Button Content="Добавить партнера" Click="AddPartnerButton_Click"/>
+            <Button Content="Изменить партнера" Click="EditPartnerButton_Click"/>
+            <Button Content="История сделок" Click="ShowHistoryButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
